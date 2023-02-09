@@ -7,6 +7,8 @@ function sendHi(uuid) {
   
     // Send the msg object as a JSON-formatted string.
 //    webSocket.send(JSON.stringify(msg));
+
+    console.log(uuid)
   
     // Blank the text input element, ready to receive the next line of text from the user.
     document.getElementById("dadiv").innerHTML = uuid;
