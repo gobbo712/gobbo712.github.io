@@ -1,4 +1,4 @@
-let webSocket = new WebSocket('wws://vps-3102527-x.dattaweb.com:9000');
+let webSocket = new WebSocket('wss://vps-3102527-x.dattaweb.com:9000');
 
 // Send text to all users through the server
 function sendHi(uuid) {
